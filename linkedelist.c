@@ -44,7 +44,13 @@ int main() {
     struct Node* head = NULL;
     int ch, val;
     while (1) {
-        printf("\n1.Insert Beg 2.Insert End 3.Delete 4.Display 5.Exit\nChoice: ");
+       printf("\n1. Insert Beg\n");
+printf("2. Insert End\n");
+printf("3. Delete\n");
+printf("4. Display\n");
+printf("5. Exit\n");
+printf("Choice: ");
+
         scanf("%d", &ch);
         if (ch == 5) break;
         if (ch == 1 || ch == 2) {
